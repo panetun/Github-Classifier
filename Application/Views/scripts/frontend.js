@@ -863,7 +863,7 @@ function HandlePopupResult(result) {
 }
 
 function convertToApiLink(repoLink){
-  // Converts a repo link an to api link. E.g. https://github.com/Ichaelus/Githubclassifier/ -> https://api.github.com/repos/Ichaelus/Githubclassifier/
+  // Converts a repo link an to api link. E.g. https://github.com/panetun/Githubclassifier/ -> https://api.github.com/repos/panetun/Githubclassifier/
   if(repoLink.indexOf("https://github.com/") >= 0){
     return trimRight(repoLink.replace("https://github.com/", "https://api.github.com/repos/", "/").trim(), "/");
   }else{
