@@ -63,7 +63,7 @@ Password: informaticup
 
 Once Ubuntu has booted, change to the folder `~/GithubClassifier/` and replace it with the folder `GithubClassifier` of our submission. Open the folder and run `python Application/start.py` inside the terminal as root.
 
-Note that [our project repository](https://github.com/Ichaelus/Github-Classifier) is now public and visible for everyone.
+Note that [our project repository](https://github.com/panetun/Github-Classifier) is now public and visible for everyone.
 
 ## And what about the Backend?
 
